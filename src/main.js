@@ -18,6 +18,8 @@ for (let i in filter) {
 import axios from 'axios'
 
 Vue.prototype.axios = axios
+//test
+Vue.prototype.y = 10
 Vue.prototype.x=x;
 axios.interceptors.response.use(response => {
   // console.log('==============数据' + response.config.url + '==================')
